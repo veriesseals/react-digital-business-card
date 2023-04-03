@@ -2,14 +2,24 @@ import React from "react"
 
 function MainContent() {
     return (
-        <div>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>It's a popular library, so I'll be 
-                able to fit in with the cool kids!</li>
-                <li>I'm more likely to get a job as a developer
-                if I know React.</li>
-            </ol>
+        <div className= "container main-headers">
+            <div className="row">
+                <h1 className="main-title"><span id="let">Let</span> <span id="equal">=</span><span id="vision"> "Me code your next vision!"</span></h1>
+            </div>
+            <div className="row">
+                <h2 className="sec-title">Languages I can use to bring your vision to life!</h2>
+            </div>
+            <div className="row">
+                <div className="langauges">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>MySQL</p>
+                    <p>Node</p>
+                    <p>React</p>
+                </div>
+            </div>
+
         </div>
     )
 }

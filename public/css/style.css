@@ -1,0 +1,81 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+/* Header.js */
+/* -------------------------------------------- */
+
+.nav-items {
+    display: flex;
+    padding-top: 80px;
+    list-style: none;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-between;
+}
+
+.nav-items a{
+    padding-left: 50px;
+    
+}
+
+.me {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+}
+.splash{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+/* MainContent.js */
+/* -------------------------------------------- */
+.main-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sec-title {
+    padding-top: 20px;
+    margin-left: 15%;
+}
+
+.langauges {
+    list-style: none;
+    display: flex;
+    margin-left: 15%;
+}
+
+.langauges p {
+    padding-top: 20px;
+    padding-left: 50px;
+    align-items: center;
+    
+}
+
+#let {
+    color: purple;
+}
+
+#equal {
+    color: red;
+}
+
+#vision{
+    color: green;
+}
+/* Footer */
+/* -------------------------------------------- */
+
+.copyright{
+    text-align: center;
+}
