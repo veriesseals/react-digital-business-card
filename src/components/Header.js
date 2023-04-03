@@ -10,7 +10,7 @@ function Header() {
                     {/* Nav-Items */}
                         <nav className="nav">
                             <div className="nav-items">
-                                <a href="#">My Portfolio</a>
+                                <a href="https://github.com/veriesseals">My Portfolio</a>
                                 <a href="#">About Me</a>
                                 <a href="#">Contact Me</a>
                             </div>
