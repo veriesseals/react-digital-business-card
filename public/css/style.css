@@ -23,7 +23,7 @@
     width: 100px;
     height: 100px;
     margin-top: 40px;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-bottom: 20px;
     border-top-left-radius: 180px;
     border-top-right-radius: 180px;
@@ -70,9 +70,41 @@
     color: red;
 }
 
-#vision{
+#vision {
     color: green;
 }
+
+#HTML {
+    color: brown;
+    font-weight: bold;
+}
+#CSS {
+    color: blue;
+    font-weight: bold;
+}
+#JS {
+    color: rgb(71, 121, 237);
+    font-weight: bold;
+}
+#MYSQL {
+    color: orange;
+    font-weight: bold;
+}
+#NODE {
+    color: green;
+    font-weight: bold;
+}
+#REACT {
+    color: rgb(66, 66, 215);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 /* Footer */
 /* -------------------------------------------- */
 

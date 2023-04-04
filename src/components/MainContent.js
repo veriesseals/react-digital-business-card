@@ -11,15 +11,14 @@ function MainContent() {
             </div>
             <div className="row">
                 <div className="langauges">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>MySQL</p>
-                    <p>Node</p>
-                    <p>React</p>
+                    <p id="HTML">HTML</p>
+                    <p id="CSS">CSS</p>
+                    <p id="JS">JavaScript</p>
+                    <p id="MYSQL">MySQL</p>
+                    <p id="NODE">Node</p>
+                    <p id="REACT">React</p>
                 </div>
             </div>
-
         </div>
     )
 }

@@ -1,4 +1,7 @@
-import react from "react"
+import React from "react"
+import Me from '../components/img/me.JPG';
+import Programming from '../components/img/Most-in-demand-programming-languages.jpg';
+import CodingLogo from '../components/img/coding-logo-design-template-vector.png';
 
 
 function Header() {
@@ -12,22 +15,22 @@ function Header() {
                             <div className="nav-items">
                                 <a href="https://github.com/veriesseals">My Portfolio</a>
                                 <a href="#">About Me</a>
-                                <a href="#">Contact Me</a>
+                                <a href="./ContactForm">Contact Me</a>
                             </div>
                         </nav>
-                        <img src="https://avatars.githubusercontent.com/u/24753536?s=400&u=60403b9db86dbfc552b7656eca56ac102006aedc&v=4" className="me" />
+                        <img src={Me} alt="My Picture" height="200" className="me"/>
+                        
                     </div>
                     {/* image */}
                     <div className="col-md-2">
-                        <img src="https://static.vecteezy.com/system/resources/thumbnails/004/909/777/small/coding-logo-design-template-vector.jpg" className="coding"></img>
+                        <img src={CodingLogo} alt="Coding Logo" className="coding"/>
                     </div>
                 </div>
             </div>
             <div className="container">
-            <div className="row">
-                <img src="https://codeandhack.com/wp-content/uploads/2018/10/Most-in-demand-programming-languages.jpeg" className="splash"/>
-            </div>
-
+                <div className="row">
+                    <img src={Programming} alt="Programming Splash Picture" className="splash"/>
+                </div>
             </div>
         </header>
     )
